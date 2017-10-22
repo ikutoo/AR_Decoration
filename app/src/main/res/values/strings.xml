@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">AR_Decoration</string>
+
+    <string-array name="categories">
+        <item>categories_01, 凳椅</item>
+        <item>categories_02, 餐桌</item>
+        <item>categories_03, 床</item>
+        <item>categories_04, 储物柜</item>
+        <item>categories_05, 地毯</item>
+        <item>categories_06, 装饰品</item>
+    </string-array>
+
+    <string-array name="categories_01">
+        <item>凳椅1, chairs/chair_01.jpg, cyborg/cyborg.obj</item>
+        <item>凳椅2, chairs/chair_02.jpg, cyborg/cyborg.obj</item>
+        <item>凳椅3, chairs/chair_03.jpg, cyborg/cyborg.obj</item>
+        <item>凳椅4, chairs/chair_04.jpg, cyborg/cyborg.obj</item>
+        <item>凳椅5, chairs/chair_05.jpg, cyborg/cyborg.obj</item>
+        <item>凳椅6, chairs/chair_06.jpg, cyborg/cyborg.obj</item>
+    </string-array>
+
+    <string-array name="categories_02">
+        <item>餐桌1, tables/tables_01.jpg, cyborg/cyborg.obj</item>
+    </string-array>
+
+    <string-array name="categories_03">
+        <item>床1, beds/bed_01.jpg, cyborg/cyborg.obj</item>
+        <item>床2, beds/bed_02.jpg, cyborg/cyborg.obj</item>
+        <item>床3, beds/bed_03.jpg, cyborg/cyborg.obj</item>
+    </string-array>
+
+    <string-array name="categories_04">
+        <item>储物柜1, cabinets/cabinet_01.jpg, cyborg/cyborg.obj</item>
+        <item>储物柜2, cabinets/cabinet_02.jpg, cyborg/cyborg.obj</item>
+        <item>储物柜3, cabinets/cabinet_03.jpg, cyborg/cyborg.obj</item>
+        <item>储物柜4, cabinets/cabinet_04.jpg, cyborg/cyborg.obj</item>
+    </string-array>
+
+    <string-array name="categories_05">
+        <item>地毯1, carpets/carpet_01.jpg, cyborg/cyborg.obj</item>
+    </string-array>
+
+    <string-array name="categories_06">
+        <item>装饰品1, decorations/decoration_01.jpg, cyborg/cyborg.obj</item>
+    </string-array>
+
+    <item name="tag_0" type="id"></item>
+    <item name="tag_1" type="id"></item>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <FrameLayout
+        android:id="@+id/MainFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/LeftDrawerLinearLayout"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/DrawerListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E4E3DE"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:listSelector="#00000000"/>
+
+        <ListView
+            android:id="@+id/DrawerSubListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="#E4E3DE"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

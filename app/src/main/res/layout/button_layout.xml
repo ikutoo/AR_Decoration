@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:gravity="right"
+              android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/TranslateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onTranslateClick"
+        android:text="平移"/>
+
+    <Button
+        android:id="@+id/RotateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRotateClick"
+        android:text="旋转"/>
+
+    <Button
+        android:id="@+id/ScaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onScaleClick"
+        android:text="缩放"/>
+
+    <Button
+        android:id="@+id/GenerateVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生成视频"/>
+
+</LinearLayout>
